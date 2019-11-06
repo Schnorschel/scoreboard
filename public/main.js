@@ -76,9 +76,9 @@ const updateTeamName2 = () => {
 }
 
 const winMsg = (team1Name, team1Score, team2Name, team2Score) => {
-  if (team1Score > team2Score) {
+  if (parseInt(team1Score) > parseInt(team2Score)) {
     return team1Name + ' won!'
-  } else if (team1Score == team2Score) {
+  } else if (parseInt(team1Score) == parseInt(team2Score)) {
     return 'Its a tie!'
   } else {
     return team2Name + ' won!'
