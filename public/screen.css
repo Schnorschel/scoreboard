@@ -25,6 +25,10 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  text-align: center;
+}
+
 .teams {
   display: flex;
   justify-content: space-around;
@@ -48,4 +52,14 @@ h1 {
 .team-2-score {
   text-align: center;
   font-size: 5rem;
+}
+
+.reset {
+  display: none;
+  height: 80%;
+  align-self: center;
+}
+
+.reset_button {
+  align-self: flex-end;
 }
